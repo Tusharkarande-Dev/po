@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
-      const res = await axios.post(`/api/contact`, userData);
+      const res = await axios.post(`/api/send`, userData);
       console.log(res.data);
       toast.success("Email sent Successfully!", {
         position: "bottom-center",
