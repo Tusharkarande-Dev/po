@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="h-[1px] bg-zinc-700"></div>
-        <div className="text-center text-xs mt-10">© Copyright 2024 . Made by <Link className="hover:underline uppercase hover-text font-semibold" href="#">Tushar Karande</Link></div>
+        <div className="text-center text-xs mt-10">© Copyright 2024 . Made by <Link className="hover:underline uppercase hover-text font-semibold" href="https://tusharkarande.vercel.app/">Tushar Karande</Link></div>
       </div>
     </footer>
   );

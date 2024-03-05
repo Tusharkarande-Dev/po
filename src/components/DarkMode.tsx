@@ -17,7 +17,6 @@ const DarkMode: React.FC = () => {
       const prefersDarkMode = window.matchMedia(
         "(prefers-color-scheme: dark)"
       ).matches;
-      console.log(prefersDarkMode);
 
       setTheme(prefersDarkMode ? "dark" : "light");
     } else {
