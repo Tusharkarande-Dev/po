@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Tushar Karande",
   description: "Portfolio Website",
   icons: {
-    icon: './favicon.ico'
+    icon: '/src/app/favicon.ico'
   }
 };
 

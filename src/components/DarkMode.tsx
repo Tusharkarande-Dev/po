@@ -13,12 +13,12 @@ const DarkMode = () => {
   return (
     <Button
       variant="outline"
-      className="outline-0 bg-transparent hover:bg-transparent pb-1 border-0"
+      className="outline-0 bg-transparent hover:bg-transparent  border-0"
       size="icon"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <Sun className="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all dark:-rotate-90 text-amber-500 dark:scale-0" />
-      <MoonIcon className="absolute h-[1.5rem] w-[1.5rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 text-amber-500 dark:scale-0" />
+      <MoonIcon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
