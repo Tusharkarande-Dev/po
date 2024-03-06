@@ -1,11 +1,18 @@
-"use client";
-import React, { useEffect, useRef, useState } from "react";
+"use client"
+import { useEffect, useRef, useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
 type Theme = "dark" | "light" | "system";
 
 const DarkMode: React.FC = () => {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== "undefined") {
+      const savedTheme = localStorage.getItem("theme");
+      return savedTheme ? (savedTheme as Theme) : "dark";
+    } else {
+      return "dark"; // Default to dark theme on server-side rendering
+    }
+  });
   const [showTheme, setShowTheme] = useState<boolean>(false);
   const themeRef = useRef<HTMLDivElement>(null);
   const themeShowRef = useRef<HTMLButtonElement>(null);
@@ -22,6 +29,7 @@ const DarkMode: React.FC = () => {
     } else {
       element.classList.remove("light", "dark");
       element.classList.add(theme);
+      localStorage.setItem("theme", theme);
     }
   }, [theme]);
 
