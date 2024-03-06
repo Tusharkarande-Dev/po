@@ -10,6 +10,9 @@ const ss3 = Source_Sans_3({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Tushar Karande",
   description: "Portfolio Website",
+  icons: {
+    icon: './favicon.ico'
+  }
 };
 
 export default function RootLayout({
