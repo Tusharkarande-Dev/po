@@ -39,7 +39,7 @@ const ScrollToTop = () => {
   return (
     <>
       <Button
-        className={`fixed bottom-8 right-8 rounded-full size-14  z-50  ${isVisible ? 'visible' : 'hidden'}`}
+        className={`fixed bottom-8 right-8 rounded-[100%] size-14  z-50  ${isVisible ? 'visible' : 'hidden'}`}
         onClick={scrollToUp}
       >
         <IoIosArrowRoundUp size={45} className="font-black inline-block text-center" />
