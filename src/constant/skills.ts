@@ -1,15 +1,15 @@
-import html from "../../public/html.png";
-import css from "../../public/css.png"
-import javascript from "../../public/js.png"
-import react from "../../public/react.png"
-import tailwind from "../../public/tailwind.png"
-import next from "../../public/nextjs.png"
-import node from "../../public/node.png"
-import bootstrap from "../../public/bootstrap.png"
-import postgresql from "../../public/postgresql.png"
-import mongodb from "../../public/mongo.png"
-import typescript from "../../public/typescript.png"
-import express from "../../public/express.png"
+import html from "../../public/languages/html.png";
+import css from "../../public/languages/css.png"
+import javascript from "../../public/languages/js.png"
+import react from "../../public/languages/react.png"
+import tailwind from "../../public/languages/tailwind.png"
+import next from "../../public/languages/nextjs.png"
+import node from "../../public/languages/node.png"
+import bootstrap from "../../public/languages/bootstrap.png"
+import postgresql from "../../public/languages/postgresql.png"
+import mongodb from "../../public/languages/mongo.png"
+import typescript from "../../public/languages/typescript.png"
+import express from "../../public/languages/express.png"
 import { StaticImageData } from "next/image";
 
 // Define a type for a skill object

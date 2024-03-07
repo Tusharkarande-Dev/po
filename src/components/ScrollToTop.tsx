@@ -15,7 +15,7 @@ const ScrollToTop = () => {
 
   const handleScroll = () => {
     // Show the button when the user scrolls down
-    if (isBrowser() && window.scrollY > 10) {
+    if (isBrowser() && window.scrollY > 0) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -39,7 +39,7 @@ const ScrollToTop = () => {
   return (
     <>
       <Button
-        className={`fixed bottom-8 right-8 rounded-[100%] size-14  z-50  ${isVisible ? 'visible' : 'hidden'}`}
+        className={`fixed bottom-8 right-8 rounded-full size-14  z-50  ${isVisible ? 'visible' : 'hidden'}`}
         onClick={scrollToUp}
       >
         <IoIosArrowRoundUp size={45} className="font-black inline-block text-center" />

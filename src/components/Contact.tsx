@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <article
       id="contact"
-      className="flex flex-col w-full min-h-[87vh] lg:py-32 py-[100px] dark:text-gray-100 bg-gray-900/10 dark:bg-zinc-950/90  lg:px-40 px-6 md:px-16"
+      className="flex flex-col w-full min-h-[87vh] lg:py-32 py-[100px] dark:text-gray-100 bg-gray-900/10 dark:bg-zinc-950/90  xl:px-40 px-4 lg:px-20 md:px-10"
     >
       <figure className="flex flex-col items-center text-center gap-5 lg:mb-24 mb-16">
         <h1 className="font-bold text-4xl lg:tracking-widest tracking-wider">
@@ -68,7 +68,7 @@ const Contact = () => {
       <figure className="flex items-center justify-center">
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col items-start bg-white lg:min-w-[60%] min-w-[80%] sm:p-14 p-8  lg:gap-12 sm:gap-10 gap-6 font-semibold rounded-md shadow-2xl"
+          className="flex flex-col items-start bg-white lg:min-w-[65%] min-w-[80%] sm:p-14 p-8  lg:gap-12 sm:gap-10 gap-6 font-semibold rounded-md shadow-2xl"
         >
           <div className="w-full flex flex-col gap-2">
             <label className="text-slate-500 font-semibold" htmlFor="name">
@@ -116,7 +116,7 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <Button type="submit" className="py-5 w-full">
+          <Button type="submit" className="py-5 rounded-md w-full">
             Submit
           </Button>
         </form>

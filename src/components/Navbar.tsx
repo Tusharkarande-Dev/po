@@ -36,8 +36,8 @@ const Navbar = () => {
   }, [isMenu]);
 
   return (
-    <header className="w-full h-20 fixed top-0 z-10">
-      <nav className="w-full bg-white dark:bg-zinc-800 h-full px-3 sm:px-8 text-slate-700 dark:text-gray-100 lg:px-24 flex items-center justify-between">
+    <header className="w-full h-20 fixed top-0 z-10 ">
+      <nav className="w-full bg-white dark:bg-zinc-800 h-full px-3 text-slate-700 dark:text-gray-100 xl:px-24 md:px-12 flex items-center justify-between ">
         <div className="flex items-center gap-3 px-2">
           <Link href="https://tusharkarande.vercel.app/">
           <Image
@@ -46,12 +46,12 @@ const Navbar = () => {
             alt="logo"
           />
           </Link>
-          <h1 className="text-lg hover-text tracking-wide  uppercase font-bold lg:text-xl ">
+          <h1 className="text-lg hover-text tracking-wide  uppercase font-bold md:text-xl ">
             <Link href="https://tusharkarande.vercel.app/">Tushar Karande</Link>
           </h1>
         </div>
-        <div className="flex items-center sm:gap-6 gap-8 lg:gap-12">
-          <ul className="sm:flex hidden items-center sm:gap-6 md:gap-8 lg:gap-12 font-bold lg:text-lg text-base">
+        <div className="flex items-center sm:gap-6 md:gap-8 lg:gap-12">
+          <ul className="sm:flex hidden items-center sm:gap-6 md:gap-8 lg:gap-12 font-bold md:text-lg text-base">
             {navItems.map((item) => (
               <li className="hover-text" key={item.id}>
                 <Link href={item.path}>{item.navName}</Link>

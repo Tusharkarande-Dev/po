@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = (): JSX.Element => {
   return (
-    <article id="about" className="flex flex-col w-full min-h-full lg:py-32 py-[100px] dark:text-gray-100 bg-gray-100 dark:bg-zinc-700 lg:px-40 px-4 md:px-10">
+    <article id="about" className="flex flex-col w-full min-h-full lg:py-32 py-[100px] dark:text-gray-100 bg-gray-100 dark:bg-zinc-700 xl:px-40 px-4 lg:px-20 md:px-10">
       <figure className="flex flex-col  items-center text-center gap-5 lg:mb-24 mb-16">
         <h1 className="font-bold text-4xl lg:tracking-widest tracking-wider">
           ABOUT ME
@@ -35,7 +35,7 @@ const About = (): JSX.Element => {
             mentorship, I would love to hear from you.
             </p>
           </div>
-          <Button className="py-4 px-14">Contact</Button>
+          <Button className="py-4 px-14 rounded-md">Contact</Button>
         </div>
         <div className="flex flex-col gap-9 items-center lg:items-start">
           <h1 className="lg:text-3xl text-2xl font-bold ml-4">My Skills</h1>

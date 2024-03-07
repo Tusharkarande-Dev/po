@@ -3,6 +3,7 @@ import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
+import ProjectSection from "@/components/ProjectSection"
 import ScrollToTop from "@/components/ScrollToTop"
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <ProjectSection />
       <Contact />
       <Footer />
       <ScrollToTop />

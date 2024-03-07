@@ -18,7 +18,7 @@ const Button: React.FC<BtnProps> = ({
       onClick={onClick}
       className={clsx(
         className,
-        "cursor-pointer bg-violet-600  rounded-md shadow-lg dark:shadow-zinc-600/45 font-bold uppercase duration-300 text-gray-100 ease-linear hover:-translate-y-1 active:scale-90 active:bg-violet-800"
+        "cursor-pointer bg-violet-600  shadow-lg dark:shadow-zinc-600/45 font-bold uppercase duration-300 text-gray-100 ease-linear hover:-translate-y-1 active:scale-90 active:bg-violet-800"
       )}
       {...props}
     >
