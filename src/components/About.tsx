@@ -1,6 +1,7 @@
 import { skills } from "@/constant/skills";
 import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = (): JSX.Element => {
   return (
@@ -35,7 +36,9 @@ const About = (): JSX.Element => {
             mentorship, I would love to hear from you.
             </p>
           </div>
+          <Link href="#contact">
           <Button className="py-4 px-14 rounded-md">Contact</Button>
+          </Link>
         </div>
         <div className="flex flex-col gap-9 items-center lg:items-start">
           <h1 className="lg:text-3xl text-2xl font-bold ml-4">My Skills</h1>
