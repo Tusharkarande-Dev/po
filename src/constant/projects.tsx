@@ -14,7 +14,7 @@ export const projects: ProjectsProp[] = [
   {
     id: 1,
     project_name: "Portfolio",
-    desc: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+    desc: "My portfolio website is a testament to my skills in web development, design, and content creation.Through this project, I demonstrate my ability to blend creativity with technical expertise to create impactful digital experiences.",
     github_link: "https://github.com/Tusharkarande-Dev/portfolio_website",
     live_link: "https://tusharkarande.vercel.app",
     image: portfolio,
